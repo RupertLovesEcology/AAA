@@ -1,0 +1,671 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Drafting
+</name>
+</assembly>
+<members>
+<member name="T:Drafting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Drafting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Drafting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ContactListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ObserversDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ProjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_ActivityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_CollMethodsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_HabitatsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_StrataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_TaxanomicTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_AquaticFaunaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_BirdsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_FrogsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_TreeHealthDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_VegUnderstoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_GroundWaterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SiteVarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SurfaceWaterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_WetlandVarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_ActionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_PlansDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_FloodplainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SampleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SiteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_WetlandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Method_TypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_SampleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_VisitDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Taxa_SpeciesListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Unit_MeasurementTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_RelationshipsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_TiersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ContactListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ObserversRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ProjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_ActivityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_CollMethodsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_HabitatsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_StrataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_TaxanomicTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_AquaticFaunaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_BirdsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_FrogsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_TreeHealthRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_VegUnderstoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_GroundWaterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SiteVarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SurfaceWaterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_WetlandVarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_ActionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_PlansRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_FloodplainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SampleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SiteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_WetlandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Method_TypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_SampleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_VisitRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Taxa_SpeciesListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Unit_MeasurementTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_RelationshipsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_TiersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ContactListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ObserversRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Admin_ProjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_ActivityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_CollMethodsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_HabitatsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_StrataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.BDBSA_TaxanomicTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_AquaticFaunaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_BirdsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_FrogsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_TreeHealthRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Bio_VegUnderstoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_GroundWaterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SiteVarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_SurfaceWaterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Env_WetlandVarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_ActionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Data_Mgmt_PlansRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_FloodplainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SampleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_SiteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Location_WetlandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Method_TypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_SampleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Survey_VisitRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Taxa_SpeciesListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.Unit_MeasurementTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_RelationshipsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSet.zz_Prog_TiersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Admin_ContactListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Admin_ObserversTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Admin_ProjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.BDBSA_ActivityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.BDBSA_CollMethodsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.BDBSA_HabitatsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.BDBSA_StrataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.BDBSA_TaxanomicTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Bio_AquaticFaunaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Bio_BirdsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Bio_FrogsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Bio_TreeHealthTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Bio_VegUnderstoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Env_GroundWaterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Env_SiteVarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Env_SurfaceWaterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Env_WetlandVarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Mgmt_ActionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Data_Mgmt_PlansTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Location_FloodplainTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Location_SampleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Location_SiteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Location_WetlandTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Method_TypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Survey_SampleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Survey_VisitTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Taxa_SpeciesListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.Unit_MeasurementTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.zz_Prog_RelationshipsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.zz_Prog_TiersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Drafting.WCMDbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Drafting.WCMDbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Drafting.WCMDbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.UpdateAll(Drafting.WCMDbDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Drafting.WCMDbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

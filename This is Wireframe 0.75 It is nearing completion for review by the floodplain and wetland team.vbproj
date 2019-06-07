@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E00A1773-28E1-4070-8E85-B0D5619A3429}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>This_is_Wireframe_0._75_It_is_nearing_completion_for_review_by_the_floodplain_and_wetland_team</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Drafting\bin\Debug\app.publish\Drafting.exe" />
+    <Content Include="Drafting\bin\Debug\Drafting.exe" />
+    <Content Include="Drafting\bin\Debug\Drafting.pdb" />
+    <Content Include="Drafting\bin\Debug\Drafting.xml" />
+    <Content Include="Drafting\Drafting.vbproj" />
+    <Content Include="Drafting\Drafting.vbproj.user" />
+    <Content Include="Drafting\frog_icon_gEw_icon.ico" />
+    <Content Include="Drafting\My Project\Application.myapp" />
+    <Content Include="Drafting\obj\Debug\Drafting.exe" />
+    <Content Include="Drafting\obj\Debug\Drafting.pdb" />
+    <Content Include="Drafting\obj\Debug\Drafting.vbproj.FileListAbsolute.txt" />
+    <Content Include="Drafting\obj\Debug\Drafting.xml" />
+    <Content Include="Drafting\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Drafting\Useful phrases.txt" />
+    <Content Include="Gosner.png" />
+    <Content Include="Icon1.ico" />
+    <Content Include="RuntimeComponent1\RuntimeComponent1.vbproj" />
+    <Content Include="Stupid Turtle.jpg" />
+    <Content Include="Stupid Turtle.png" />
+    <Content Include="treehealth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Draft1\v15\.suo" />
+    <None Include=".vs\Draft1\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\Draft1\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\Draft1\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\Draft1\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include=".vs\Draft1\v16\.suo" />
+    <None Include=".vs\Draft1\v16\Server\sqlite3\db.lock" />
+    <None Include=".vs\Draft1\v16\Server\sqlite3\storage.ide" />
+    <None Include="Drafting\App.config" />
+    <None Include="Drafting\bin\Debug\Drafting.application" />
+    <None Include="Drafting\bin\Debug\Drafting.exe.config" />
+    <None Include="Drafting\bin\Debug\Drafting.exe.manifest" />
+    <None Include="Drafting\Drafting_TemporaryKey.pfx" />
+    <None Include="Drafting\My Project\Settings.settings" />
+    <None Include="Drafting\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Drafting\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Drafting\obj\Debug\Drafting.application" />
+    <None Include="Drafting\obj\Debug\Drafting.exe.manifest" />
+    <None Include="Drafting\obj\Debug\Drafting.vbproj.CoreCompileInputs.cache" />
+    <None Include="Drafting\obj\Debug\Drafting.vbproj.GenerateResource.cache" />
+    <None Include="Drafting\obj\Debug\Drafting.vbprojAssemblyReference.cache" />
+    <None Include="RuntimeComponent1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="RuntimeComponent1\obj\Debug\RuntimeComponent1.vbproj.CoreCompileInputs.cache" />
+    <None Include="RuntimeComponent1\obj\Debug\RuntimeComponent1.vbprojAssemblyReference.cache" />
+    <None Include="RuntimeComponent1\obj\project.assets.json" />
+    <None Include="RuntimeComponent1\obj\RuntimeComponent1.vbproj.nuget.cache" />
+    <None Include="RuntimeComponent1\obj\RuntimeComponent1.vbproj.nuget.g.props" />
+    <None Include="RuntimeComponent1\obj\RuntimeComponent1.vbproj.nuget.g.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Drafting\frmBirdcomment.Designer.vb">
+      <DependentUpon>frmBirdcomment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmBirdcomment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmBirdentry5.Designer.vb">
+      <DependentUpon>frmBirdentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmBirdentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmBirdprojectcheck4a.Designer.vb">
+      <DependentUpon>frmBirdprojectcheck4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmBirdprojectcheck4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmBirdselectnew.Designer.vb">
+      <DependentUpon>frmBirdselectnew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmBirdselectnew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmEnvarentry.Designer.vb">
+      <DependentUpon>frmEnvarentry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmEnvarentry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFauna.Designer.vb">
+      <DependentUpon>frmFauna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFauna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFCcomments.Designer.vb">
+      <DependentUpon>frmFCcomments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFCcomments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFishcomment.Designer.vb">
+      <DependentUpon>frmFishcomment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFishcomment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFishentry5.Designer.vb">
+      <DependentUpon>frmFishentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFishentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFishOptional.Designer.vb">
+      <DependentUpon>frmFishOptional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFishOptional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFishprojectcheck4a.Designer.vb">
+      <DependentUpon>frmFishprojectcheck4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFishprojectcheck4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFishselectnew.Designer.vb">
+      <DependentUpon>frmFishselectnew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFishselectnew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFrogcallentry5.Designer.vb">
+      <DependentUpon>frmFrogcallentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFrogcallentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFrogcallprojectcheck4a.Designer.vb">
+      <DependentUpon>frmFrogcallprojectcheck4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFrogcallprojectcheck4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmFrogentry5.Designer.vb">
+      <DependentUpon>frmFrogentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmFrogentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmGBentry5.Designer.vb">
+      <DependentUpon>frmGBentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmGBentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmGosner.Designer.vb">
+      <DependentUpon>frmGosner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmGosner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmLocation3.Designer.vb">
+      <DependentUpon>frmLocation3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmLocation3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmLocationbycode3a.Designer.vb">
+      <DependentUpon>frmLocationbycode3a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmLocationbycode3a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmLocationbysite3a.Designer.vb">
+      <DependentUpon>frmLocationbysite3a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmLocationbysite3a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmMap.Designer.vb">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmNewobserver2a.Designer.vb">
+      <DependentUpon>frmNewobserver2a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmNewobserver2a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmObserver2.Designer.vb">
+      <DependentUpon>frmObserver2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmObserver2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmShrimpcheck.Designer.vb">
+      <DependentUpon>frmShrimpcheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmShrimpcheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmSiteatrium4.Designer.vb">
+      <DependentUpon>frmSiteatrium4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmSiteatrium4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmSitecomment5.Designer.vb">
+      <DependentUpon>frmSitecomment5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmSitecomment5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTHcomments.Designer.vb">
+      <DependentUpon>frmTHcomments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTHcomments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTHentry4a.Designer.vb">
+      <DependentUpon>frmTHentry4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTHentry4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTHhelp.Designer.vb">
+      <DependentUpon>frmTHhelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTHhelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTreeSelect4a.Designer.vb">
+      <DependentUpon>frmTreeSelect4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTreeSelect4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTurtleentry5.Designer.vb">
+      <DependentUpon>frmTurtleentry5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTurtleentry5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmTurtleID.Designer.vb">
+      <DependentUpon>frmTurtleID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmTurtleID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmWelcome1.Designer.vb">
+      <DependentUpon>frmWelcome1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmWelcome1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\frmWQentry4a.Designer.vb">
+      <DependentUpon>frmWQentry4a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drafting\frmWQentry4a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drafting\Module1.vb" />
+    <Compile Include="Drafting\My Project\Application.Designer.vb" />
+    <Compile Include="Drafting\My Project\AssemblyInfo.vb" />
+    <Compile Include="Drafting\My Project\Resources.Designer.vb" />
+    <Compile Include="Drafting\My Project\Settings.Designer.vb" />
+    <Compile Include="RuntimeComponent1\Class1.vb" />
+    <Compile Include="RuntimeComponent1\My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Drafting\frmBirdcomment.resx">
+      <DependentUpon>frmBirdcomment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmBirdentry5.resx">
+      <DependentUpon>frmBirdentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmBirdprojectcheck4a.resx">
+      <DependentUpon>frmBirdprojectcheck4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmBirdselectnew.resx">
+      <DependentUpon>frmBirdselectnew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmEnvarentry.resx">
+      <DependentUpon>frmEnvarentry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFauna.resx">
+      <DependentUpon>frmFauna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFCcomments.resx">
+      <DependentUpon>frmFCcomments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFishcomment.resx">
+      <DependentUpon>frmFishcomment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFishentry5.resx">
+      <DependentUpon>frmFishentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFishOptional.resx">
+      <DependentUpon>frmFishOptional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFishprojectcheck4a.resx">
+      <DependentUpon>frmFishprojectcheck4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFishselectnew.resx">
+      <DependentUpon>frmFishselectnew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFrogcallentry5.resx">
+      <DependentUpon>frmFrogcallentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFrogcallprojectcheck4a.resx">
+      <DependentUpon>frmFrogcallprojectcheck4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmFrogentry5.resx">
+      <DependentUpon>frmFrogentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmGBentry5.resx">
+      <DependentUpon>frmGBentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmGosner.resx">
+      <DependentUpon>frmGosner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmLocation3.resx">
+      <DependentUpon>frmLocation3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmLocationbycode3a.resx">
+      <DependentUpon>frmLocationbycode3a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmLocationbysite3a.resx">
+      <DependentUpon>frmLocationbysite3a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmMap.resx">
+      <DependentUpon>frmMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmNewobserver2a.resx">
+      <DependentUpon>frmNewobserver2a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmObserver2.resx">
+      <DependentUpon>frmObserver2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmShrimpcheck.resx">
+      <DependentUpon>frmShrimpcheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmSiteatrium4.resx">
+      <DependentUpon>frmSiteatrium4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmSitecomment5.resx">
+      <DependentUpon>frmSitecomment5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTHcomments.resx">
+      <DependentUpon>frmTHcomments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTHentry4a.resx">
+      <DependentUpon>frmTHentry4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTHhelp.resx">
+      <DependentUpon>frmTHhelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTreeSelect4a.resx">
+      <DependentUpon>frmTreeSelect4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTurtleentry5.resx">
+      <DependentUpon>frmTurtleentry5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmTurtleID.resx">
+      <DependentUpon>frmTurtleID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmWelcome1.resx">
+      <DependentUpon>frmWelcome1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\frmWQentry4a.resx">
+      <DependentUpon>frmWQentry4a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drafting\My Project\Resources.resx" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmBirdcomment.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmBirdentry5.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmBirdprojectcheck4a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmBirdselectnew.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFauna.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFCcomments.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFishcomment.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFishentry5.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFishOptional.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFishprojectcheck.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFishselectnew.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFrogcallentry5.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFrogcallprojectcheck4a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmFrogentry5.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmGBentry.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmGosner.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmLocation3.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmLocationbycode3a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmLocationSite3a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmMap.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmNewobserver2a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmObserver2.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmShrimpcheck.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmSiteatrium4.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmSitecomment.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTHcomments.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTHentry4a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTHhelp.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTreeSelect4a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTurtleentry5.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmTurtleID.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmWelcome1.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.frmWQentry4a.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.Resources.resources" />
+    <EmbeddedResource Include="Drafting\obj\Debug\Drafting.txtHyd.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Drafting\bin\Release\" />
+    <Folder Include="My Project\" />
+    <Folder Include="RuntimeComponent1\bin\Debug\" />
+    <Folder Include="RuntimeComponent1\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
